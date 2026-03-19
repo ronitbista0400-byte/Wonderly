@@ -1,0 +1,124 @@
+/* ===== GENERAL STYLES ===== */
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #1a1a2e;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ff2d7a;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-container {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.login-container button {
+    width: 95%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #ff2d7a;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.login-container button:hover {
+    opacity: 0.9;
+}
+
+/* ===== DASHBOARD ===== */
+body.admin-dashboard {
+    padding: 20px;
+}
+
+.admin-dashboard h1 {
+    margin-bottom: 20px;
+    color: #ff2d7a;
+}
+
+.admin-dashboard a {
+    margin-right: 15px;
+    padding: 6px 12px;
+    background: #ff2d7a;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.admin-dashboard a:hover {
+    opacity: 0.9;
+}
+
+/* ===== TABLES ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #ff2d7a;
+    color: white;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* ===== ADDITIONAL ===== */
+.ghost {
+    background: transparent;
+    border: 1px solid #ff2d7a;
+    color: #ff2d7a;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.ghost:hover {
+    background: #ff2d7a;
+    color: white;
+}
